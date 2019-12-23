@@ -1534,7 +1534,35 @@ blockquote::after{
   content: '';
 }
 
-blockquote span{
+
+blockquotegreen{
+  font-size: 1.4em;
+  width:80%;
+  margin:50px auto;
+  color: #555555;
+  padding:1.2em 30px 1.2em 75px;
+  border-left:8px solid #3A72C2 ;
+  line-height:1.6;
+  position: relative;
+  background:#EDEDED;
+}
+
+blockquotegreen::before{
+
+  content: "\201C";
+  color:#3A72C2;
+  font-size:4em;
+  position: absolute;
+  left: 10px;
+  top:-10px;
+}
+
+blockquotegreen::after{
+  content: '';
+}
+
+
+blockquotegreen span{
   display:block;
   color:#333333;
   font-style: normal;
@@ -1542,7 +1570,83 @@ blockquote span{
   margin-top:1em;
 }
 
+blockquotered{
+  font-size: 1.4em;
+  width:80%;
+  margin:50px auto;
+  color: #555555;
+  padding:1.2em 30px 1.2em 75px;
+  border-left:8px solid #3A72C2 ;
+  line-height:1.6;
+  position: relative;
+  background:#EDEDED;
+}
 
+blockquotered:::before{
+
+  content: "\201C";
+  color:#3A72C2;
+  font-size:4em;
+  position: absolute;
+  left: 10px;
+  top:-10px;
+}
+
+blockquotered::after{
+  content: '';
+}
+
+blockquotepink{
+  font-size: 1.4em;
+  width:80%;
+  margin:50px auto;
+  color: #555555;
+  padding:1.2em 30px 1.2em 75px;
+  border-left:8px solid #3A72C2 ;
+  line-height:1.6;
+  position: relative;
+  background:#EDEDED;
+}
+
+blockquotepink::before{
+
+  content: "\201C";
+  color:#3A72C2;
+  font-size:4em;
+  position: absolute;
+  left: 10px;
+  top:-10px;
+}
+
+blockquotepink::after{
+  content: '';
+}
+
+blockquoteorange{
+  font-size: 1.4em;
+  width:80%;
+  margin:50px auto;
+  color: #555555;
+  padding:1.2em 30px 1.2em 75px;
+  border-left:8px solid #3A72C2 ;
+  line-height:1.6;
+  position: relative;
+  background:#EDEDED;
+}
+
+blockquoteorange::before{
+
+  content: "\201C";
+  color:#3A72C2;
+  font-size:4em;
+  position: absolute;
+  left: 10px;
+  top:-10px;
+}
+
+blockquoteorange::after{
+  content: '';
+}
 
 .highlight:hover {
 border:solid 2px;
